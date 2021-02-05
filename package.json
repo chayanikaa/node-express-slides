@@ -1,0 +1,19 @@
+{
+  "name": "server-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "unified": "^9.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:slides": "live-server --port=8181 ./slides", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
